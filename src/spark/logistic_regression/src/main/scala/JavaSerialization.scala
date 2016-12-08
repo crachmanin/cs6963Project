@@ -4,7 +4,7 @@ import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.mllib.regression.LabeledPoint
-import org.apacha.spark.storage.StorageLevel
+import org.apache.spark.storage.StorageLevel
 import org.apache.spark.mllib.util.MLUtils
 import breeze.linalg._
 import breeze.numerics._
