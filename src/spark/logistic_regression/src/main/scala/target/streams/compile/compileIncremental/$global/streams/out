@@ -1,0 +1,71 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/christianrachmaninoff/temp/spark_example/src/main/scala/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 6e8ec407, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes:/Users/christianrachmaninoff/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/christianrachmaninoff/temp/spark_example/src/main/scala/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.hadoop.fs.FileSystem  [0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.hadoop.fs.Path[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala:6: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkConf[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala:7: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.log4j.{Level, Logger}[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala:8: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.regression.LabeledPoint[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala:9: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.util.MLUtils[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala:10: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala:11: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.numerics._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala:20: not found: type SparkConf[0m
+[0m[[31merror[0m] [0m    val conf = new SparkConf().setAppName("Logistic Regression")[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala:21: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m    val sc = new SparkContext(conf)[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala:28: not found: value MLUtils[0m
+[0m[[31merror[0m] [0m    val data = MLUtils.loadLabeledPoints(sc, args(0))[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/Users/christianrachmaninoff/temp/spark_example/src/main/scala/LogisticRegression.scala:35: not found: type DenseVector[0m
+[0m[[31merror[0m] [0m    var w = new DenseVector(a)[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m14 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
