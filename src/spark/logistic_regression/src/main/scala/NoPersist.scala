@@ -10,7 +10,7 @@ import breeze.numerics._
 //import org.apache.spark.mllib.linalg.BLAS.{dot}
 import java.io._
 
-object LogisticRegression {
+object NoPersist {
 
   def main(args: Array[String]) {
     //case class DLabeledPoint(var label: Double, var features:DenseVector)
