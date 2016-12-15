@@ -18,6 +18,7 @@ def grad_func(row):
 for i in range(10):
     grad = np.apply_along_axis(grad_func, 1, data)
     reduced = np.sum(grad)
+    w -= reduced * .01
     end = timeit.default_timer()
     print w
     print (end - start)/1000
